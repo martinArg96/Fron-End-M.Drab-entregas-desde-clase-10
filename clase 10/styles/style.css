@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    padding: 10px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+header nav a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* main */
+main{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #E5E5E5;
+    
+    
+}
+.banner-izquierda-container{
+    background-image: url("../images/delivery.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    width: 45vw;
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+  
+}
+
+.banner-izquierda-container span{
+    color: rgb(255, 254, 254);
+}
+
+.banner-derecha-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+    font-weight: bold;
+    flex-grow: 1;
+    width: 45vw;
+    padding-top: 30px;
+    margin: 10px;
+    background-color: #fffdfd;
+}
+
+.h2-container{
+    flex-grow: 1;
+    color: red;
+    padding: 20px;
+    font-size: 25px;
+    padding-bottom: 1;
+
+}
+
+.super-container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    width: 80%;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 20px;
+}
+
+.top5{
+    padding: 20px;
+}
+
+.img-arbol img{
+    padding: 20px;
+    width: 17vw;
+    height: 22vh;
+}
+
+.top5 li{
+    padding: 8px;
+}
+
+.top5 h3{
+    padding: 12px;
+}
+
+
+
+
+
+
+footer{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+
+}
+
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+footer nav a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer img{
+    width: 14vw;
+    height: 80px;
+}
