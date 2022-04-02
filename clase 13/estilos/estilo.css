@@ -144,3 +144,50 @@ button{
     color: rgba(255, 255, 255, 0.486);
     padding: 3px;
 }
+
+.suscribete{
+    margin-top: 20px;
+}
+
+.suscribete .container{
+    background-color: #F0A83E;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div-correo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.div-correo h3{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #FBFAF6;
+}
+
+.form-sub{
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+
+.button-sub{
+    background-color: #3C2313;
+    
+    height: 40px;
+    border-radius: 1.3rem;
+    color: rgba(255, 255, 255, 0.486);
+    padding: 3px;
+}
+
+.input-correo{
+    background-color: #FBFAF6;
+    width: 60%;
+    color: black;
+}
